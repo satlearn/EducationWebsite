@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(148, 46, 227);
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  .table1{
+    width:100%;
+  }
+  .table1 th{
+    width:50%;
+  }

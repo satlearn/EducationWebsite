@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/*ABOUT US, COURSES*/
+
+:root{
+    --maincolor:rgb(180, 5, 81);
+    --primarycolor:rgb(139, 11, 185);
+    
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 5rem;
+}
+.mt{
+    margin-top: 5rem;
+}
+.p{
+    text-align: center;
+}
+.flex-design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para-heading{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.box{
+    background-color:var(--maincolor);
+    padding:20px;
+    margin-left: 10px ;
+    border-radius: 10px;   
+}
+
+.box:first-child{
+    margin-left: 0px;
+}
+
+.para-content{    
+    text-align: center;
+    margin-left:15%;
+    margin-right: 15%;
+    color:#ffffff;
+    font-size: 20px;
+}
+.para-content:hover{
+    color:rgb(8, 8, 17);
+    
+}
+.course-heading{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.course-content{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
+img{
+    height: 400px;
+    width: 1100px;
+}
+.course-img{
+    position: relative;
+}
+
+.course-img::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    transform: scale(0);
+    transition: transform 300ms;
+    background-color:rgba(238, 82, 215, 0.602);
+}
+.course:hover .course-img::after{
+      transform: scale(1);
+}
+.course-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300,1fr));
+}
+
+@media screen and (max-width:700px){
+    .course-content{
+        margin-left: 10px;        
+        margin-top: 10px;
+        margin-bottom: 3rem;
+        text-align: center;
+        font-size: 20px;
+    }
+    img{
+        height: 300px;
+        width: 500px;
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width:675px){
+    .para-content{
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 5px;
+        margin-left: 0px;
+    }    
+}
