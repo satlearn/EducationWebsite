@@ -126,11 +126,11 @@ header{
          } */
          .nav{
             margin-right: 30px; float: right;  display: block;
-            background-color: rgb(1, 3, 19); height: 100vh; width: 100%;
+            background-color: rgb(23, 23, 116); height: 100vh; width: 100%;
             color: #edebf0;
             
          }
-         .nav li{
+        .nav li{
              display:block;
              }
          

@@ -16,8 +16,8 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
-    padding: 0 8%;
+    /*height: 100vh;*/
+    padding: 0 8%; 
 }
 .container h1{
     text-align: center;
@@ -104,6 +104,6 @@
         .footer{
         display: block;
         flex-direction: column;
-        position:fixed;          
+                
         }
     }
