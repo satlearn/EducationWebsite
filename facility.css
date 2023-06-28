@@ -6,8 +6,7 @@
 
 :root{
     --maincolor:rgb(180, 5, 81);
-    --primarycolor:rgb(139, 11, 185);
-    
+    --primarycolor:rgb(139, 11, 185);    
 }
 *{
     margin:0;
