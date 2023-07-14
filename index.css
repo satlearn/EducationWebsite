@@ -195,6 +195,7 @@ header{
     
     .toggle {
         display: block;
+        transition: 2s;
     }
     
     .nav {
@@ -206,6 +207,7 @@ header{
         width: 300px;
         color: #edebf0;
         border-radius: 20px;
+        transition: 2s;
     }
     
     .nav.active {
@@ -227,8 +229,8 @@ header{
         line-height: 150px;
         margin-right: 5px;
         text-align: center;
-        transition: transform 3s;
-        transition-duration: 3s;
+        /* transition: transform 3s; */
+        transition: 3s;
     }
     .text {        
        display: none;
